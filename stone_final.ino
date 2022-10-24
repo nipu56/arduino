@@ -4,7 +4,7 @@
  #include <avr/power.h>
 #endif
 #define PIN            13 //네오픽셀의 핀번호
-#define NUMPIXELS      3  // 네오픽셀의 비트개수
+#define NUMPIXELS      12  // 네오픽셀의 비트개수
 
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800); // 네오픽셀 핀설정, 픽셀의 개수, 핀의 위치
 String r;
